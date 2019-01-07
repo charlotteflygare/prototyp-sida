@@ -1,7 +1,9 @@
 @font-face {
-  font-family: IdentitypeOnedevelopment-Medium;
-  src: url(/fonts/IdentitypeOnedevelopment-Medium.otf);
+  font-family: IdentitypeOnedevelopment-Regular;
+  src: url(/fonts/IdentitypeOnedevelopment-Regular.otf);
 }
+
+
 
 body {
   margin: 0;
