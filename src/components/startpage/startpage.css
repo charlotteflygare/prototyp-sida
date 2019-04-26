@@ -6,16 +6,16 @@
 
 h2 {
   font-family: IdentitypeOnedevelopment-Regular;
-  font-size: 40px;
+  font-size: 35px;
   color: #ffffff;
-  padding: 0 20px;
+  padding: 0 20px 10px 20px;
   margin: 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   }
 
 p {
   font-family: ff-dagny-web-pro, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #ffffff;
   padding: 0 50px 0 20px;
   margin: 0;
@@ -31,13 +31,67 @@ p {
   margin-right: auto;
 }
 
-.item-text span {
+.text, .text-z span {
   display: inline-block;
 }
-.item-text span::before {
+.text, .text-z span::before {
   content: "\A";
-  white-space: pre;
+  /* white-space: pre; */
 }
+
+.grid-container {
+  /* grid-template-rows: 6rem  1fr 5.5rem  5.5rem ;
+grid-template-columns: 1fr;   */
+  margin-top: 60px;
+  /* grid-template-columns: repeat(1, 1fr); */
+  /* grid-template-rows: auto; */
+  /* grid-auto-rows: 265px; */
+  /* grid-template-columns: min-content 1fr, 1fr); */
+  /* grid-template-columns: 265px auto 265px; */
+  /* grid-template-rows: auto; */
+
+
+  /* grid-template-columns: repeat(1, minmax(265px, 1fr)); */
+  /* grid-template-rows: repeat(autofill, minmax(265px, 1fr)); */
+  /* grid-auto-rows: 265px;
+  grid-template-columns: min-content 1fr 1fr; */
+
+  grid-gap: 10px;
+  grid-template-areas:
+  "text"
+  "image-sl"
+  "image-ob"
+  "image-z-2"
+  "text-z"
+}
+.image-sl {
+  grid-area: image-sl;
+}
+.image-sl-2 {
+  grid-area: image-sl-2;
+}
+.image-ob {
+  grid-area: image-ob;
+}
+.image-ob-logo {
+  grid-area: image-ob-logo;
+}
+.image-z {
+  grid-area: image-z;
+}
+.image-z-2 {
+  grid-area: image-z-2;
+}
+.text {
+  grid-area: text;
+}
+.text-orebro {
+  grid-area: text-orebro;
+}
+.text-z {
+  grid-area: text-z;
+}
+
 /* ------- GAMMAL gridContainer */
 /* .grid-container {  */
   /* margin-top: 60px;
@@ -52,17 +106,17 @@ p {
   grid-template-columns: repeat(5, 1fr); */
 /* } */
 
-.item img {
+img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.text  {
+/* .text  {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 
 @media screen and (min-width: 400px) {
   .wrapper {
@@ -73,8 +127,9 @@ p {
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(5, minmax(265px, 1fr));
+
     grid-template-rows: repeat(autofill, minmax(265px, 1fr));
-    grid-auto-rows: 265px;
+    /* grid-auto-rows: 265px; */
     grid-gap: 10px;
     grid-template-areas:
     "image-sl image-sl image-sl-2 text text"

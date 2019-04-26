@@ -15,6 +15,8 @@ class Header extends React.Component {
       </ul>
       </div>
         <img src="./images/fapa-logo.png" alt="fapa logo" />
+
+
       </div>
     )
   }

@@ -15,6 +15,18 @@ class Startpage extends React.Component {
 
           <Header />
           <div className="grid-container">
+          <div className="item text">
+            <h2>Sl</h2>
+            <p></p>
+
+            <p>Visuell identitet och trafikinformation<span>
+               En färgsprakande och användarvänlig lösning som möter
+               de höga krav på tillgänglighet som huvudstadens kollektivtrafik
+               kräver. Nu finns till exempel all information både på svenska
+               och engelska. Och den nya spårtrafikkartan är, enligt vår mening,
+               ett konstverk i sig.</span>
+            </p>
+          </div>
             <div className="item image-sl">
               <img src="./images/sl.jpg" alt="SL" />
             </div>
@@ -23,16 +35,7 @@ class Startpage extends React.Component {
               <img src="./images/SL3.jpg" alt="SL" />
             </div>
 
-            <div className="item text">
-              <h2>Sl</h2>
-              <p>Visuell identitet och trafikinformation<span>
-                 En färgsprakande och användarvänlig lösning som möter
-                 de höga krav på tillgänglighet som huvudstadens kollektivtrafik
-                 kräver. Nu finns till exempel all information både på svenska
-                 och engelska. Och den nya spårtrafikkartan är, enligt vår mening,
-                 ett konstverk i sig.</span>
-              </p>
-            </div>
+
 
 
             <div className="item image-ob-logo">
@@ -44,7 +47,7 @@ class Startpage extends React.Component {
             </div>
 
             <div className="item image-z">
-              <img src="./images/z2.gif" alt="Orebro" />
+              <img src="./images/Zoegas-DDB-2.gif" alt="Orebro" />
             </div>
 
             <div className="item image-z-2">
@@ -52,18 +55,21 @@ class Startpage extends React.Component {
             </div>
 
             <div className="item text-z">
-              <p>Visuell identitet och trafikinformation<span>
-                 En färgsprakande och användarvänlig lösning som möter
-                 de höga krav på tillgänglighet som huvudstadens kollektivtrafik
-                 kräver. Nu finns till exempel all information både på svenska
-                 och engelska. Och den nya spårtrafikkartan är, enligt vår mening,
-                 ett konstverk i sig.</span>
+              <h2>Zoega</h2>
+c              <p>Zoégas Display font<span>
+                 DDB Stockholm vände sig till oss för att formge
+                 ett typsnitt exklusivt för kaffetillverkaren Zoégas.
+                 Typsnittet ska användas som rubrik i bred exponering
+                 på förpackningar, trycksaker och digitala applikationer
+                 som appar och responsiv design.</span>
               </p>
             </div>
 
 
         </div>
       </div>
+      <Footer />
+
       </div>
 
     )

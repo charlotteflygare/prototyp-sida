@@ -1,0 +1,126 @@
+@font-face {
+  font-family: IdentitypeOnedevelopment-Regular;
+  src: url(/fonts/IdentitypeOnedevelopment-Regular.otf);
+}
+
+.footer-wrapper {
+  margin: 0 30px 0 30px;
+}
+.footer-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 20px 0 0px 0;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-container h2 {
+  font-family: IdentitypeOnedevelopment-Regular;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0 0px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.footer-container p {
+  font-family: ff-dagny-web-pro, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0 50px 0 0px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+ul {
+  width: 100%;
+  padding: 0px;
+}
+
+.footer-container span {
+  display: inline-block;
+}
+.footer-container span::before {
+  content: "\A";
+  /* white-space: pre; */
+}
+
+li:nth-child(2) {
+  padding: 10px 0 10px 0;
+}
+
+.footer-container a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  color: #F19889;
+  text-decoration: underline;
+}
+
+
+@media screen and (min-width: 400px) {
+.footer-wrapper {
+  margin: 0;
+}
+.footer-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 20px 0 40px 0; */
+  border-top: 1px solid #ffffff;
+}
+
+.footer-container h2 {
+  font-family: IdentitypeOnedevelopment-Regular;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.footer-container p {
+  font-family: ff-dagny-web-pro, sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0 50px 0 0;
+  margin: 0;
+  line-height: 1.5;
+}
+.footer-container-kontakt {
+  width: 33.33%;
+}
+.footer-container-talang {
+  width: 33.33%;
+}
+.footer-container-talang {
+  width: 33.33%;
+}
+
+.footer-container span {
+  display: inline-block;
+}
+.footer-container span::before {
+  content: "\A";
+  /* white-space: pre; */
+}
+
+li:nth-child(2) {
+  padding: 10px 0 10px 0;
+}
+
+.footer-container a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  color: #F19889;
+  text-decoration: underline;
+}
+}
